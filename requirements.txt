@@ -1,0 +1,13 @@
+boto3
+boto3-stubs[s3]
+pandas
+numpy
+faker
+pydantic
+pydantic-settings
+loguru
+pytest
+python-dotenv
+great-expectations
+pyarrow
+fastparquet
