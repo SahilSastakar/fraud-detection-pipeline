@@ -113,7 +113,7 @@ class FraudDetector:
         final_score = min(raw_score, 1.0)
         return final_score, triggered_rules
 
-        def detect(self, df: pd.DataFrame) -> tuple[pd.DataFrame, List[FraudAlert]]:
+    def detect(self, df: pd.DataFrame) -> tuple[pd.DataFrame, List[FraudAlert]]:
         logger.info(f"Running fraud detection on {len(df):,} transactions")
 
         fraud_scores = []
